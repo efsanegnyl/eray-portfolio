@@ -57,20 +57,20 @@ body {
 
 .home-details {
 
-h1{
-  position: relative;
-  &:before{
-    content: '';
-    position: absolute;
-    left:-65px;
-    top:20px;
-    display: block;
-    width: 40px;
-    height: 4px;
-    background-color:#3cdc84;
-    border-radius:10px;
+  h1{
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      left:-65px;
+      top:20px;
+      display: block;
+      width: 40px;
+      height: 4px;
+      background-color:#3cdc84;
+      border-radius:10px;
+    }
   }
-}
 }
 
 
@@ -106,7 +106,10 @@ h1{
   }
 
 }
-
+.container{
+  padding-left: 100px;
+  padding-right: 100px;
+}
 .btn-search{
   width: 50px;
   height: 50px;
