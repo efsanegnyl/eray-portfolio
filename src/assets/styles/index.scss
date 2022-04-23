@@ -45,6 +45,10 @@ body {
 
 .image{
   box-shadow: 0 0 7px rgb(0 0 0 / 90%);
+  @media screen and (max-width: 600px) {
+    width: 200px;
+
+}
 }
 .scale-image{
   position: fixed;
@@ -53,6 +57,9 @@ body {
   transform: rotate(-15deg);
   left: -83%;
   top: -50%;
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .home-details {
@@ -145,6 +152,9 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   color: hsla(0,0%,100%,.07);
+  @media screen and (max-width: 600px) {
+    font-size: 70px;
+  }
 }
 
 

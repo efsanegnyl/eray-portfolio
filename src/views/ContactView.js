@@ -8,7 +8,7 @@ function ContactView() {
     return (
         <Layout>
             <div className="pt-20">
-                <h1 className="text-center text-5xl font-bold  mb-20 text-primary-orange">İletişim
+                <h1 className="text-center md:text-5xl text-3xl font-bold  mb-20 text-primary-orange">İletişim
                     <span className="title-bg ">İletişim</span>
                 </h1>
                 <div className="container flex flex-col items-center ">
@@ -26,7 +26,7 @@ function ContactView() {
                     >
                         <div className="flex mb-10 hover:text-primary-orange items-center ">
                             <RiLinkedinLine className="font-bold text-3xl" />
-                            <p className="pl-5"> eraybulut</p>
+                            <p className="pl-5"> Eray Bulut</p>
                         </div>
                     </a>
 
@@ -35,7 +35,7 @@ function ContactView() {
                     <a href="https://github.com/eraybulut">
                         <div className="flex mb-10 hover:text-primary-orange items-center ">
                             <FiGithub className="font-bold text-3xl  cursor-pointer  "/>
-                            <p className="pl-5">eraybulut</p>
+                            <p className="pl-5">Eray Bulut</p>
                         </div>
                     </a>
                 </div>

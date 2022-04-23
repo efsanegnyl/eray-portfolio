@@ -5,12 +5,12 @@ function ProjectView() {
     return (
         <Layout>
         <div className="pt-20">
-            <h1 className="text-center text-5xl font-bold  mb-20 text-primary-orange">Projelerim
+            <h1 className="text-center md:text-5xl text-3xl font-bold  mb-20 text-primary-orange">Projelerim
                 <span className="title-bg ">Projeler</span>
             </h1>
 
 
-            <div className="flex flex-wrap px-44">
+            <div className="flex flex-wrap md:px-44 px-8">
                 <div className="md:w-1/2 px-2 py-4  ">
                     <a href="/" target="_blank" className="min-h-full">
                         <div
