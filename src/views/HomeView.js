@@ -65,18 +65,18 @@ function HomeView() {
                         Aktif olarak Java ile android uygulama gelistiriyor , bu alanda ilerlemek icin ogrenmeye ve gelismeye devam ediyorum.
                     </p>
 
-                        <div className="mr-10 md:flex hidden ">
-                            <ul className=" md:flex justify-between">
-                                <li className="flex items-center mb-2">
+                        <div className="mr-10 md:flex hidden  ">
+                            <ul className=" md:flex justify-between items-center">
+                                <li className="flex items-center mr-4 mb-2">
                                     <MdDateRange className="mr-2  text-primary-orange" />
                                     <span className="">16.10.2001</span>
                                 </li>
-                                <li className="flex items-center mb-2">
+                                <li className="flex items-center mr-4 mb-2">
 
                                     <MdAlternateEmail className="mr-2 text-primary-orange " />
                                     <span>eraybulutlar@gmail.com</span>
                                 </li>
-                                <li className="flex items-center">
+                                <li className="flex items-center mr-4 mb-2">
                                     <MdLocationOn className="mr-2 text-primary-orange " />
                                     <span>İstanbul , Türkiye</span>
                                 </li>
