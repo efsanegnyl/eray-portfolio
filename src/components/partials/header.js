@@ -9,7 +9,7 @@ function Header() {
     const windowWidth = window.screen.width;
 
     return (
-        <div className="mr-4 flex items-center justify-center  fixed right-0 md:top-0 bottom-8  md:h-full  h-20  ">
+        <div className="mr-4 flex items-center justify-center  fixed right-0 md:top-0 bottom-3  md:h-full  h-20  ">
                     <nav className="h-2/6 ">
                         <ul className="flex md:flex-col">
                             <li   data-tip data-for="home" className="header-nav-item mr-4">

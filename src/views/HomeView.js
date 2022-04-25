@@ -47,24 +47,25 @@ function HomeView() {
                     </div>
                 </div>
                 <div className=" home-details md:w-7/12  mx-14   min-h-full flex flex-col justify-center ">
-                    <h1 className="font-semibold flex uppercase text-primary-orange md:text-5xl  text-2xl  mx-16">
-
+                    <div className=" text-primary-orange md:mx-16 mx-12 mb-2"><d> Merhaba</d><span>👋</span></div>
+                    <h1 className="font-semibold flex uppercase text-primary-orange md:text-5xl  text-xl  md:mx-16 mx-12">
+                        <br/>
                        <BlinkingCursorTextBuilder
                            cursorStyle={{"backgroundColor": "#4454e2", }}
                         >
-                           Ben Eray Bulut
+                            Ben ,Eray Bulut
                         </BlinkingCursorTextBuilder>
-                        <br/>
+
 
                     </h1>
-                    <span className="text-primary-light ml-16 mb-5 md:text-2xl">Android Developer</span>
+                    <span className="text-primary-light ml-10 mb-5 md:text-2xl">Android Developer</span>
 
                     <p className="leading-7 md:pr-36 mb-24">
                         Bilgisayar ve teknoloji alanında öğrenmeyi ve kendimi geliştirmeyi seven biriyim .
                         Aktif olarak Java ile android uygulama gelistiriyor , bu alanda ilerlemek icin ogrenmeye ve gelismeye devam ediyorum.
                     </p>
 
-                        <div className="mr-10 ">
+                        <div className="mr-10 md:flex hidden ">
                             <ul className=" md:flex justify-between">
                                 <li className="flex items-center mb-2">
                                     <MdDateRange className="mr-2  text-primary-orange" />
