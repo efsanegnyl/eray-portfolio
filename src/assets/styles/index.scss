@@ -29,6 +29,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #ffffff;
+  overflow: hidden;
 
 }
 
@@ -53,6 +54,7 @@ body {
 .scale-image{
   position: fixed;
   height: 200%;
+
   width: 100%;
   transform: rotate(-15deg);
   left: -83%;
